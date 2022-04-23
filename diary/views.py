@@ -9,7 +9,6 @@ from .forms import InquiryForm
 logger = logging.getLogger(__name__)
 
 
-# Create your views here.
 class IndexView(generic.TemplateView):
     template_name = 'index.html'
 
